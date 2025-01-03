@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React, { useState, useContext } from 'react';
-import './NavBar.css';
+import './Navbar.css';
 import { assets } from '../../assets/assets.js';
 import { Link, useNavigate } from 'react-router-dom';
 import { StoreContext } from '../../Context/StoreContext';
