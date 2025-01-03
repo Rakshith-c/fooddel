@@ -5,7 +5,7 @@ const Stripe = require('stripe')
 const stripe = new Stripe(process.env.SK_KEY)
     const placeOrder = async (req, res) => {
        
-        const frontend_url = "http://localhost:5173"
+        const frontend_url = "https://fooddel-1user.onrender.com"
 try{
     const newOrder =await orderModel.create({
         
